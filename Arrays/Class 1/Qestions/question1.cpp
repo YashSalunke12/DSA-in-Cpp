@@ -15,7 +15,7 @@ int main(){
     for(int i=0; i<5; i++){
         arr[i]=1;
         cout << arr[i] << endl;
-    }
+    } 
 
     return 0;
 }
