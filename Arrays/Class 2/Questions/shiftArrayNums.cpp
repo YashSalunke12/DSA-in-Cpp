@@ -6,7 +6,8 @@ void shiftArrayNums(int arr[], int size){
     for(int i=size; i>0; i--){
         arr[i] = arr[i-2];
     }
-    arr[0,1] = temp[0,1];
+    arr[0] = temp[0];
+    arr[1] = temp[1];
 
     for(int i=0; i<size; i++){
         cout << arr[i] << " ";
