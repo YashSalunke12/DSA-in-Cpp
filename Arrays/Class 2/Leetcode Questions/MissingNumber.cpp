@@ -16,7 +16,7 @@ using namespace std;
 
 int main(){
 
-    vector<int> nums = {3,0,1};
+    vector<int> nums = {3,0,2};
     int finalAns = missingNumber(nums);
     cout << finalAns;
 
